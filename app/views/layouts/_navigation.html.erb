@@ -1,13 +1,14 @@
 
 <div class="brand">
-<%= link_to "Peterson | Nykamp", root_path, :class => "brand" %>
-<br>
-<%= link_to "Attorneys at Law", root_path, :class => "brand subtitle" %>
+<a href="/about"><%= image_tag "logo.png" %></a>
+
+<%#= link_to "Peterson | Nykamp", root_path, :class => "brand" %>
+<%= link_to "Attorneys at Law", about_path, :class => "brand subtitle" %>
 </div>
 
 <ul class="nav pull-right">
-	<li class=""><%= link_to 'About Us', about_path %></li>
-	<li class=""><%= link_to 'Attorneys', attorneys_path %></li>
-	<li class=""><%= link_to 'Practice Areas', practice_areas_path %></li>
-	<li class=""><%= link_to 'Contact', contact_path %></li>
+	<li><%= link_to 'About Us', about_path, :class => "about" %></li>
+	<li><%= link_to 'Attorneys', attorneys_path, :class => "attorneys" %></li>
+	<li><%= link_to 'Practice Areas', practice_areas_path, :class => "practice" %></li>
+	<li><%= link_to 'Contact', contact_path, :class => "contact" %></li>
 </ul>

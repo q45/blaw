@@ -6,40 +6,63 @@ div.content {
 	margin-top: 85px;
 }
 
+
 .navbar-inner {
-	height: 90px;
+	height: 130px;
+	/*background: #841618 !important;*/
+	background: white !important;
 }
 
 .navbar .nav.pull-right {
-	margin-top: 25px;
+	margin-top: 42px;
 }
-.nav li {
+
+div.brand img {
+	margin-top: -50px;
+}
+
+.navbar-inverse .navbar-inner {
+	
+}
+.nav > a{
 	padding-right: 30px;
 	padding-bottom:5px;
 }
 
-.nav li a {
-	font-size: 18px;
-	color: white;
+.navbar .nav >  a{
+	color: #841618;
+}
+.nav  a {
+	font-size: 22px;	
+	text-decoration: none
 }
 
-.nav li {
-	color: white;
+
+.nav a:hover {
+	border-bottom: solid #841618 3px;
+	color:#841618 !important;
+	font-weight: bold;
 }
 
-.nav li a:hover {
-	border-bottom: solid white 3px;
-}
+
+
 
 .navbar-inverse .brand {
 	font-size:30px;
 	font: Arial;
-	color: white;
+	
 }
 
 .navbar-inverse a.subtitle {
-	font-size: 22px;
+	font-size: 25px;
 	font-style: italic;
 	padding-left: 56px;
+
+}
+
+a.brand.subtitle {
+	margin-top: -78px;
+	margin-left: 95px;
+	color: #841618 !important;
 }
 
