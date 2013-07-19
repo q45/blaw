@@ -1,5 +1,5 @@
 Blaw::Application.routes.draw do
-  root :to => "home#index"
+  root :to => "home#about"
   get "about" => "home#about"
   get "attorneys" => "home#attorneys"
   get "practice_areas" => "home#practice_areas"
