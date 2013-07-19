@@ -18,7 +18,12 @@ div.content {
 }
 
 .pull-right li {
-	padding-right: 10px;
+	padding-right: 5px;
+
+}
+
+.pull-right li a {
+	font-family: sans-serif;
 }
 
 div.brand img {
@@ -31,21 +36,24 @@ div.brand img {
 .nav > a{
 	padding-right: 30px;
 	padding-bottom:5px;
+
 }
 
 .navbar .nav >  a{
 	color: #841618;
+	font-family: Dakota;
 }
 .nav  a {
 	font-size: 22px;	
-	text-decoration: none
+	text-decoration: none;
+	
 }
 
 
 .nav a:hover {
 	border-bottom: solid #841618 3px;
 	color:#841618 !important;
-	font-weight: bold;
+	
 }
 
 
@@ -53,13 +61,14 @@ div.brand img {
 
 .navbar-inverse .brand {
 	font-size:30px;
-	font: Arial;
+	
 	
 }
 
 .navbar-inverse a.subtitle {
 	font-size: 25px;
 	font-style: italic;
+	font-family: Dakota;
 	padding-left: 56px;
 
 }
@@ -68,5 +77,16 @@ a.brand.subtitle {
 	margin-top: -78px;
 	margin-left: 95px;
 	color: #841618 !important;
+}
+
+#contactus {
+	float: right;
+	margin-right: 115px;
+}
+
+address {
+	text-align:center;
+	font-size: 16px;
+	line-height: 28px;
 }
 

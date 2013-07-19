@@ -4,11 +4,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= content_for?(:title) ? yield(:title) : "Peterson & Nykamp Attorneys at Law" %></title>
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Blaw" %>">
+
     <%= stylesheet_link_tag "application", :media => "all" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-responsive.css">
     <%= yield(:head) %>
-    <script src="holder.js"></script>
+    <script src="app/assets/javascripts/holder.js"></script>
+  
+  
   </head>
   <body class="<%= controller_name %> <%= action_name %>">
     <div class="navbar navbar-fixed-top navbar-inverse">
@@ -17,7 +21,9 @@
           <%= render 'layouts/navigation' %>
         </div>
       </nav>
+      
     </div>
+
     <div id="main" role="main">
       <div class="container">
         <div class="content">
